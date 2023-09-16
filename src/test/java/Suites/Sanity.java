@@ -14,6 +14,7 @@ public class Sanity {
     //To run suites in parallel
     //mvn clean test -Dtest=Suites.Sanity,Suites.Regression
     //in pom set true  junit.jupiter.execution.parallel.enabled=false
+    //https://www.youtube.com/watch?v=i2LQh15HP1U&ab_channel=StasPeshkur
     @BeforeAll
     public static void setup(){
         startURL = Config.getProperty("start.url");
